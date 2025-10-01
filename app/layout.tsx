@@ -7,9 +7,32 @@ import { Toaster } from "react-hot-toast";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "CoRent",
-  description: "CoRent",
+  title: "Turn Your Property Into a Passive Income Machine | CoRent",
+  description:
+    "Join thousands of property owners earning consistent rental income with CoRent’s all-in-one property management platform. We handle everything so you don’t have to.",
   generator: "CoRent",
+  openGraph: {
+    title: "Turn Your Property Into a Passive Income Machine | CoRent",
+    description:
+      "Join thousands of property owners earning consistent rental income with CoRent’s all-in-one property management platform. We handle everything so you don’t have to.",
+    siteName: "CoRent",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "CoRent Property Management Platform",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Turn Your Property Into a Passive Income Machine | CoRent",
+    description:
+      "Earn consistent rental income effortlessly with CoRent’s property management platform. We handle everything so you don’t have to.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function RootLayout({

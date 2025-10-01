@@ -1,6 +1,7 @@
 import { SignupForm } from "@/components/signup-form";
-import { CheckCircle, DollarSign, Shield, Users } from "lucide-react";
+import { CheckCircle, DollarSign, Shield, Star, Users } from "lucide-react";
 import Image from "next/image";
+import { Badge } from "./ui/badge";
 
 export function HeroSection() {
   return (
@@ -19,6 +20,10 @@ export function HeroSection() {
               />
             </div>
             <div className="space-y-6">
+              <Badge className="bg-accent/20 text-primary border-accent/30 px-4 py-2">
+                <Star className="w-4 h-4 mr-2 text-primary" />
+                {"All-in-One Platform"}
+              </Badge>
               <h1 className="text-xl lg:text-5xl font-bold leading-tight text-balance text-corent-primary">
                 Turn Your Property Into a Passive Income Machine
               </h1>

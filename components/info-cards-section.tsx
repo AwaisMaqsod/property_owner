@@ -42,7 +42,7 @@ export function InfoCardsSection() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {cards.map((card, index) => (
+          {cards?.map((card, index) => (
             <div
               key={index}
               className="bg-white rounded-2xl p-8 shadow-lg border border-corent-quaternary hover:shadow-xl transition-all duration-300 hover:-translate-y-1"

@@ -32,7 +32,7 @@ export function InfoCardsSection() {
     <section className=" bg-white">
       <div className="container mx-auto max-w-7xl px-4 py-12 lg:py-20">
         <div className="text-center mb-16">
-          <h2 className="text-2xl md:text-4xl font-bold text-corent-primary mb-4">
+          <h2 className="text-xl md:text-3xl font-bold text-corent-primary mb-4">
             Why Property Owners Choose CoRent
           </h2>
           <p className="md:text-base text-sm text-corent-primary/70">

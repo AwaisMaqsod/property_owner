@@ -6,7 +6,7 @@ import { Badge } from "./ui/badge";
 export function HeroSection() {
   return (
     <section className="min-h-screen bg-gradient-to-br from-quaternary/40 to-quaternary  ">
-      <div className="container mx-auto max-w-6xl px-4 py-12 lg:py-20">
+      <div className="container mx-auto max-w-7xl px-4 py-12 lg:py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
           {/* Left Content */}
           <div className="space-y-8">

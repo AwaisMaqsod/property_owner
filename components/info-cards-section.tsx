@@ -29,8 +29,8 @@ export function InfoCardsSection() {
   ];
 
   return (
-    <section className="py-20 px-6 bg-white">
-      <div className="container mx-auto px-4 py-12 lg:py-20">
+    <section className=" bg-white">
+      <div className="container mx-auto max-w-6xl px-4 py-12 lg:py-20">
         <div className="text-center mb-16">
           <h2 className="text-2xl md:text-4xl font-bold text-corent-primary mb-4">
             Why Property Owners Choose CoRent
@@ -53,7 +53,7 @@ export function InfoCardsSection() {
               <h3 className="md:text-lg text-base font-semibold text-corent-primary mb-4">
                 {card.title}
               </h3>
-              <p className="text-corent-primary/70 leading-relaxed md:text-base text-sm">
+              <p className="text-corent-primary/70 leading-relaxed md:text-sm text-xs">
                 {card.description}
               </p>
             </div>

@@ -84,7 +84,7 @@ export function SignupForm() {
   };
 
   return (
-    <Card className="w-full max-w-md mx-auto bg-white shadow-2xl border-0">
+    <Card className="w-full bg-white shadow-2xl border-0">
       <CardHeader className="text-center pb-6">
         <CardTitle className="text-2xl font-bold text-corent-primary">
           Get Started Today

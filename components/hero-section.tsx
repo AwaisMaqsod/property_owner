@@ -5,7 +5,7 @@ import Image from "next/image";
 export function HeroSection() {
   return (
     <section className="min-h-screen bg-gradient-to-br from-quaternary/40 to-quaternary  ">
-      <div className="container mx-auto px-4 py-12 lg:py-20">
+      <div className="container mx-auto max-w-6xl px-4 py-12 lg:py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
           {/* Left Content */}
           <div className="space-y-8">
@@ -19,7 +19,7 @@ export function HeroSection() {
               />
             </div>
             <div className="space-y-6">
-              <h1 className="text-2xl lg:text-6xl font-bold leading-tight text-balance text-corent-primary">
+              <h1 className="text-xl lg:text-5xl font-bold leading-tight text-balance text-corent-primary">
                 Turn Your Property Into a Passive Income Machine
               </h1>
               <p className="md:text-base text-sm text-corent-primary/70 leading-relaxed">
@@ -85,7 +85,7 @@ export function HeroSection() {
           </div>
 
           {/* Right Form */}
-          <div className="lg:pl-8">
+          <div className="">
             <SignupForm />
           </div>
         </div>

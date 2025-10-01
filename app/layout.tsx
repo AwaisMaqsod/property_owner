@@ -7,6 +7,7 @@ import { Toaster } from "react-hot-toast";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://property-owner.vercel.app"),
   title: "Turn Your Property Into a Passive Income Machine | CoRent",
   description:
     "Join thousands of property owners earning consistent rental income with CoRent’s all-in-one property management platform. We handle everything so you don’t have to.",
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "CoRent",
     images: [
       {
-        url: "/logo.png",
+        url: "https://property-owner.vercel.app/og-image.png", // ✅ absolute URL
         width: 1200,
         height: 630,
         alt: "CoRent Property Management Platform",
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
     title: "Turn Your Property Into a Passive Income Machine | CoRent",
     description:
       "Earn consistent rental income effortlessly with CoRent’s property management platform. We handle everything so you don’t have to.",
-    images: ["/logo.png"],
+    images: ["https://property-owner.vercel.app/og-image.png"], // ✅ absolute path
   },
 };
 
